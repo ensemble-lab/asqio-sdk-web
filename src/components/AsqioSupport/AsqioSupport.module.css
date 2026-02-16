@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: var(--asqio-font-family, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+  color: var(--asqio-text-color, #212529);
+  background: var(--asqio-bg, #fff);
+  overflow: hidden;
+}
