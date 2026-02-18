@@ -47,5 +47,12 @@
   "license": "MIT",
   "sideEffects": [
     "*.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aspick/asqio-sdk-web.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }

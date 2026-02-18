@@ -4,6 +4,14 @@ asqio の Web 向けサポート SDK。React 18+ を前提とした UI コンポ
 
 ## インストール
 
+このパッケージは [GitHub Packages](https://docs.github.com/en/packages) で公開されています。インストールするには、まずプロジェクトのルートに `.npmrc` を作成してレジストリを設定してください。
+
+```
+@asqio:registry=https://npm.pkg.github.com
+```
+
+その後、通常どおりインストールできます。
+
 ```sh
 npm install @asqio/web-sdk
 ```
