@@ -1,5 +1,5 @@
 {
-  "name": "@asqio/web-sdk",
+  "name": "@ensemble-lab/asqio-sdk-web",
   "version": "0.1.0",
   "description": "asqio support SDK for Web",
   "type": "module",
@@ -50,7 +50,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/aspick/asqio-sdk-web.git"
+    "url": "https://github.com/ensemble-lab/asqio-sdk-web.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
