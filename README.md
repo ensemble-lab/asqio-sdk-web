@@ -1,4 +1,4 @@
-# @asqio/web-sdk
+# @ensemble-lab/asqio-sdk-web
 
 asqio の Web 向けサポート SDK。React 18+ を前提とした UI コンポーネント・Hooks・API クライアントを提供します。
 
@@ -7,13 +7,13 @@ asqio の Web 向けサポート SDK。React 18+ を前提とした UI コンポ
 このパッケージは [GitHub Packages](https://docs.github.com/en/packages) で公開されています。インストールするには、まずプロジェクトのルートに `.npmrc` を作成してレジストリを設定してください。
 
 ```
-@asqio:registry=https://npm.pkg.github.com
+@ensemble-lab:registry=https://npm.pkg.github.com
 ```
 
 その後、通常どおりインストールできます。
 
 ```sh
-npm install @asqio/web-sdk
+npm install @ensemble-lab/asqio-sdk-web
 ```
 
 React 18 以上が peerDependency として必要です。
@@ -21,8 +21,8 @@ React 18 以上が peerDependency として必要です。
 ## セットアップ
 
 ```tsx
-import { AsqioProvider } from '@asqio/web-sdk';
-import '@asqio/web-sdk/styles';
+import { AsqioProvider } from '@ensemble-lab/asqio-sdk-web';
+import '@ensemble-lab/asqio-sdk-web/styles';
 
 function App() {
   return (
@@ -61,7 +61,7 @@ function App() {
 Hooks を使わずに直接 API を呼び出す場合は `AsqioClient` を利用できます。
 
 ```ts
-import { AsqioClient } from '@asqio/web-sdk';
+import { AsqioClient } from '@ensemble-lab/asqio-sdk-web';
 
 const client = new AsqioClient({
   apiKey: 'your-api-key',
